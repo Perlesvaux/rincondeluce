@@ -41,8 +41,8 @@ flash-yellow
   <div className="relative h-40 w-50">
     <Image 
     src={image} 
-    placeholder="blur"
-    blurDataURL="/blur.webp"
+    //placeholder="blur"
+    //blurDataURL="/blur.webp"
     alt={title}
     fill
     className="object-cover"
