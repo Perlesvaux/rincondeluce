@@ -5,7 +5,7 @@ export function NavBar () {
   return <nav className="bg-gray-800 flex text-white p-4">
   
     <div className="w-2/3 flex justify-start-safe items-center gap-4"> 
-      <article className="text-sm sm:text-lg">
+      <article className="text-xs sm:text-lg">
         ¡Bienvenido al rincón de <span className="text-yellow-300 animate-pulse">LUCE</span>!
       </article>
     </div>
