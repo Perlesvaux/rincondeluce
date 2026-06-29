@@ -22,11 +22,20 @@ export interface CardProps extends Item{
 
 export interface PopOverProps extends Summary{
   id:string,
-  about?:boolean,
   url?:string,
+  transparency?:popOverTransparencies,
+  type?:popOverIconTypes,
   children?:React.ReactNode,
 }
 
+type popOverIconTypes = 
+  |"help"
+  |"info"
+  |"donation"
+
+type popOverTransparencies = 
+  |"opaque"
+  |"clear"
 
 type CornerPosition =
   |"top-right"

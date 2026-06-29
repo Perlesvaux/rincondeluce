@@ -49,7 +49,7 @@ const deus_vult:Item = {
 }
 
 const pugiles_fidei:Item = {
-  hasNew:true,
+  hasNew:false,
   title:"PUGILES FIDEI",
   url:"https://rosario-lime.vercel.app/",
   image:'/mystery-tbg.webp',
@@ -69,7 +69,7 @@ const sinite_parvulos_venire_ad_me:Item = {
 
 
 const vade_retro_satana:Item = {
-  hasNew:true,
+  hasNew:false,
   title:"VADE RETRO SATANA",
   url:"https://youtube.com/playlist?list=PLGtBzYHaqCVJ3QERrJqyMiA7-i5TRW-31&si=dvxT7Q5S54x_w1qq",
   image:'/flamingsword-tbg.webp',

@@ -1,4 +1,4 @@
-import {PopOver} from './PopOver'
+import {PopOver, Donate, DonateChivo} from './'
 
 export function NavBar () {
 
@@ -11,12 +11,28 @@ export function NavBar () {
     </div>
 
     <div className="w-1/3 flex justify-end-safe gap-4">
+
+    <PopOver
+        transparency="opaque"
+        type="donation"
+        id="donation"
+        title="Ayudanos a llegar a mas personas!"
+        description=""
+        //description="Hereje y reaccionario  son lo mismo: si no se les ataca, no caen. Es como barrer el suelo; por regla general, donde no llega la escoba, el polvo no desaparece por sí solo."
+    >
+
+      <Donate />
+      <DonateChivo />
+
+    </PopOver>
       <PopOver
-        about={true}
+        transparency="opaque"
+        type="help"
         id="about"
         title="«SER ES DEFENDERSE» "
         description="Encuentra aqui un arsenal para defender tu fe."
       > 
+
         <About/>
       </PopOver>
     </div>

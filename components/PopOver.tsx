@@ -1,12 +1,31 @@
-import {Info} from '../assets'
-import {Help} from '../assets'
-import type {PopOverProps} from '../types'
-export function PopOver ({id, title, description, url, children, about=false}:PopOverProps){
+import {Info, Help, Donation} from '@/assets'
+import type {PopOverProps} from '@/types'
 
+export function PopOver ({id, title, description, url, children, transparency="clear", type="info"}:PopOverProps){
 
-  const opaque = "p-2 rounded-full bg-white/10 hover:bg-white/20 active:bg-white/30 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-black"
+  const opacity = ()=> {
+    const opaque = "p-2 rounded-full bg-white/10 hover:bg-white/20 active:bg-white/30 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-black"
+    const clear ="p-2 rounded-full bg-white/10 hover:bg-black/10 active:bg-white/30 transition-all duration-200 " 
+    if (transparency==="opaque") return opaque 
+      return clear
+  }
 
-  const clear ="p-2 rounded-full bg-white/10 hover:bg-black/10 active:bg-white/30 transition-all duration-200 " 
+  const icon =()=>{
+//{about? <Help f="yellow" w="25px" h="25px" /> : <Info f="darkslategray" w="25px" h="25px" />}
+    switch (type) {
+      case "info":
+        return <Info f="darkslategray" w="25px" h="25px" />
+
+      case "help":
+        return <Help f="yellow" w="25px" h="25px" />
+
+      case "donation":
+        return <Donation f="yellow" w="25px" h="25px" />
+
+      default:
+        return <Info f="darkslategray" w="25px" h="25px" />
+    }
+  }
 
   const link = <a 
     href={url} target="_blank" className="underline">
@@ -17,8 +36,10 @@ export function PopOver ({id, title, description, url, children, about=false}:Po
 
     <button
         popoverTarget={id}
-        className={about? opaque : clear}>
-        {about? <Help f="yellow" w="25px" h="25px" /> : <Info f="darkslategray" w="25px" h="25px" />}
+        className={opacity()}>
+        { icon() }
+
+        
 
 
     </button>

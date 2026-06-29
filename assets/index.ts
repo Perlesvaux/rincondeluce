@@ -1,3 +1,5 @@
 export {Info} from './Info'
 export {Help} from './Help'
 export {LinkIcon} from './LinkIcon'
+export {Donation} from './Donation'
+export {Chivo} from './Chivo'
