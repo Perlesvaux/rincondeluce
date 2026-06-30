@@ -6,7 +6,7 @@ const PayPalIcon = () => (
 export function Donate() {
   return (
     <a
-      href="https://www.paypal.com/donate/?hosted_button_id=93PY5YGAXW728"
+      href="https://www.paypal.com/ncp/payment/PMHE3A9C968FL"
       target="_blank"
       rel="noopener noreferrer"
       className="
