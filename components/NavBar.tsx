@@ -12,19 +12,6 @@ export function NavBar () {
 
     <div className="w-1/3 flex justify-end-safe gap-4">
 
-    <PopOver
-        transparency="opaque"
-        type="donation"
-        id="donation"
-        title="Ayudanos a llegar a mas personas!"
-        description=""
-        //description="Hereje y reaccionario  son lo mismo: si no se les ataca, no caen. Es como barrer el suelo; por regla general, donde no llega la escoba, el polvo no desaparece por sí solo."
-    >
-
-      <Donate />
-      <DonateChivo />
-
-    </PopOver>
       <PopOver
         transparency="opaque"
         type="help"
@@ -59,4 +46,20 @@ function About () {
 
 
 
-
+    //<PopOver
+    //    transparency="opaque"
+    //    type="donation"
+    //    id="donation"
+    //    title="Ayudanos a llegar a mas personas!"
+    //    description=""
+    //    //description="Hereje y reaccionario  son lo mismo: si no se les ataca, no caen. Es como barrer el suelo; por regla general, donde no llega la escoba, el polvo no desaparece por sí solo."
+    //>
+    //
+    //  <Donate />
+    //  <DonateChivo />
+    //
+    //</PopOver>
+    //
+    //
+    //
+    //
