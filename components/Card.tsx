@@ -3,6 +3,7 @@ import Image from "next/image";
 //import {Corner} from './Corner'
 import type {CardProps} from '@/types'
 import { PopOver, PingRedDot, Corner } from '.'
+import { LinkIcon2 } from "@/assets/LinkIcon2";
 //import { PingRedDot } from './PingRedDot'
 //import { useState } from 'react'
 
@@ -58,9 +59,9 @@ flash-yellow
   sm:w-1/2 
 
   ">
-    <div className="text-center sm:text-justify">
-      <a href={url} target="_blank" className="text-md font-semibold text-blue-600 hover:text-blue-800 hover:underline transition-colors flex items-center sm:text-xl">
-      {title}
+    <div className="sm:text-justify">
+      <a href={url} target="_blank" className="text-md gap-2 font-semibold text-blue-600 hover:text-blue-800 hover:underline transition-colors flex items-center sm:text-xl">
+       <LinkIcon2 h="24px" /> <span>{title}</span>
       </a>
     </div>
     
