@@ -10,6 +10,7 @@ export interface Summary {
 }
 
 export interface Item extends Summary {
+  kind:kindTypes,
   url:string,
   image:StaticImageData | string,
   hasNew:boolean,
@@ -50,7 +51,7 @@ export interface CornerProps {
 
 
 
-export interface SvgProps {
+export interface svgProps {
   h?:string,
   w?:string,
   f?:string,
@@ -64,3 +65,13 @@ type RedDotSize =
 export interface PingRedDotProps {
   size?:RedDotSize
 }
+
+
+export interface IconKindProps {
+  kind?:kindTypes,
+}
+
+export type kindTypes = 
+  |"app"
+  |"playlist"
+  |"book"

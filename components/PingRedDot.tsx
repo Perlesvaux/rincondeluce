@@ -1,4 +1,4 @@
-import type {PingRedDotProps} from "../types"
+import type {PingRedDotProps} from "@/types"
 
 export function PingRedDot ({size="size-1"}:PingRedDotProps) {
   return<span className={`{relative flex ${size}}`}>

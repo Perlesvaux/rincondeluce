@@ -1,5 +1,5 @@
 import {NavBar} from './NavBar'
-import type { Tray } from "../types"
+import type { Tray } from "@/types"
 
 export function Layout ({children}:Tray) {
 return <div className="flex flex-col h-screen w-full">

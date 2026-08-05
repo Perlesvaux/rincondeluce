@@ -25,6 +25,7 @@ import type {Item} from '@/types'
 
 const ave_christus_rex:Item = {
   hasNew:false,
+  kind:"playlist",
   title:"AVE CHRISTUS REX",
   url:"https://youtube.com/playlist?list=PLGtBzYHaqCVJ0Mut6pnSHul9WK2j62YVt&si=N-_4_4StGg6LT-1b",
   image:"/surprised-tbg.webp",
@@ -34,6 +35,7 @@ const ave_christus_rex:Item = {
 
 const deus_vult:Item = {
   hasNew:true,
+  kind:"book",
   title:"DEUS VULT",
   url:"https://materialknight.github.io/doctrina-catolica/",
   image:"/study-tbg.webp",
@@ -50,6 +52,7 @@ const deus_vult:Item = {
 
 const pugiles_fidei:Item = {
   hasNew:false,
+  kind:"app",
   title:"PUGILES FIDEI",
   url:"https://rosario-lime.vercel.app/",
   image:'/mystery-tbg.webp',
@@ -60,6 +63,7 @@ const pugiles_fidei:Item = {
 
 const sinite_parvulos_venire_ad_me:Item = {
   hasNew:false,
+  kind:"playlist",
   title:"SINITE PARVULOS VENIRE AD ME",
   url:"https://youtube.com/playlist?list=PLGtBzYHaqCVL3a1Ytl8FNjGNPNwC-2TLs&si=5j8Bdm8yf4ktLRjd",
   image:'/videogame-tbg.webp',
@@ -70,6 +74,7 @@ const sinite_parvulos_venire_ad_me:Item = {
 
 const vade_retro_satana:Item = {
   hasNew:false,
+  kind:"playlist",
   title:"VADE RETRO SATANA",
   url:"https://youtube.com/playlist?list=PLGtBzYHaqCVJ3QERrJqyMiA7-i5TRW-31&si=dvxT7Q5S54x_w1qq",
   image:'/flamingsword-tbg.webp',

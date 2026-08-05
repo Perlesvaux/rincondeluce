@@ -4,13 +4,15 @@ import Image from "next/image";
 import type {CardProps} from '@/types'
 import { PopOver, PingRedDot, Corner } from '.'
 import { LinkIcon2 } from "@/assets/LinkIcon2";
+// import { PlayList } from "@/assets/PlayList";
+import { Icon } from "@/components/Icon";
 //import { PingRedDot } from './PingRedDot'
 //import { useState } from 'react'
 
 // Shout out to WebDev Simplified  https://blog.webdevsimplified.com/2023-05/lazy-load-images/
 //ffmpeg -i imageName.jpg -vf scale=20:-1 imageName-small.jpg
 
-export function Card ({legend, title, image, url, hasNew, description }:CardProps){
+export function Card ({legend, title, image, url, hasNew, description, kind }:CardProps){
 
   //const [isReady, setIsReady] = useState(false)
 
@@ -61,7 +63,7 @@ flash-yellow
   ">
     <div className="sm:text-justify">
       <a href={url} target="_blank" className="text-md gap-2 font-semibold text-blue-600 hover:text-blue-800 hover:underline transition-colors flex items-center sm:text-xl">
-       <LinkIcon2 h="24px" /> <span>{title}</span>
+       <Icon kind={kind} /> <span>{title}</span>
       </a>
     </div>
     
