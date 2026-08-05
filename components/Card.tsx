@@ -3,7 +3,7 @@ import Image from "next/image";
 //import {Corner} from './Corner'
 import type {CardProps} from '@/types'
 import { PopOver, PingRedDot, Corner } from '.'
-import { LinkIcon2 } from "@/assets/LinkIcon2";
+
 // import { PlayList } from "@/assets/PlayList";
 import { Icon } from "@/components/Icon";
 //import { PingRedDot } from './PingRedDot'

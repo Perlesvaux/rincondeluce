@@ -1,7 +1,4 @@
-import { LinkIcon2 } from "@/assets/LinkIcon2";
-import { PlayList } from "@/assets/PlayList";
-import { AppIcon } from "@/assets/AppIcon";
-import { BookIcon } from "@/assets/BookIcon";
+import { PlayList, AppIcon, BookIcon, LinkIcon2 } from '@/assets'
 import { IconKindProps } from "@/types";
 
 export function Icon({ kind }:IconKindProps){
