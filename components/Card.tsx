@@ -6,6 +6,7 @@ import { PopOver, PingRedDot, Corner } from '.'
 
 // import { PlayList } from "@/assets/PlayList";
 import { Icon } from "@/components/Icon";
+import { Mk } from "@/components" 
 //import { PingRedDot } from './PingRedDot'
 //import { useState } from 'react'
 
@@ -68,7 +69,7 @@ flash-yellow
     </div>
     
     <div className="text-gray-600 text-sm sm:text-base">
-      <p className="w-full">{legend}</p>
+      <Mk body={legend}/>
     </div>
 
   </div>

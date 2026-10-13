@@ -6,7 +6,7 @@ export interface Tray {
 
 export interface Summary {
   title: string,
-  description:string | React.ReactNode,
+  description:string ,
 }
 
 export interface Item extends Summary {
@@ -14,7 +14,7 @@ export interface Item extends Summary {
   url:string,
   image:StaticImageData | string,
   hasNew:boolean,
-  legend:string | React.ReactNode,
+  legend:string ,
 }
 
 export interface CardProps extends Item{

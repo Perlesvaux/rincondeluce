@@ -2,7 +2,7 @@ import {NavBar} from './NavBar'
 import type { Tray } from "@/types"
 
 export function Layout ({children}:Tray) {
-return <div className="flex flex-col h-screen w-full">
+return <div className="">
 
   <NavBar />
   
@@ -17,3 +17,8 @@ return <div className="flex flex-col h-screen w-full">
   </footer>
 </div>
 }
+
+
+// add these to top div: flex flex-col h-screen w-full
+// This makes footer and navbar stay in place.
+// I've removed it as it's not needed in this little app

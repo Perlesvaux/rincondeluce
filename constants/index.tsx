@@ -29,25 +29,52 @@ const ave_christus_rex:Item = {
   title:"AVE CHRISTUS REX",
   url:"https://youtube.com/playlist?list=PLGtBzYHaqCVJ0Mut6pnSHul9WK2j62YVt&si=N-_4_4StGg6LT-1b",
   image:"/surprised-tbg.webp",
-  legend:<>¡El <i>sentido aracnido</i> es real! Y lo mejor es que <strong>se entrena con esta lista de reproducción.</strong></>,
-  description:<><p>Lista de reproducción sobre: <strong>Filosofía, Religión y Politica</strong></p> <blockquote>«Al amigo, todo; al enemigo, ni justicia» ― Perón</blockquote> <blockquote>«Un soldado sin formación política e ideológica no es más que un criminal de guerra en potencia» ― Thomas Sankara.</blockquote></>,
-}
+  legend:`¡El *sentido aracnido* es real! Y lo mejor es que **se entrena con esta lista de reproducción.**`,
+  description:`Lista de reproducción **economico-politica**
 
+> «Un soldado sin formación política e ideológica no es más que un criminal de guerra en potencia»
+  ― Thomas Sankara.
+
+  `,
+}
+//
 const deus_vult:Item = {
   hasNew:true,
   kind:"book",
   title:"DEUS VULT",
   url:"https://materialknight.github.io/doctrina-catolica/",
   image:"/study-tbg.webp",
-  legend:<><i>Catecismo</i>, <i>Didajé</i>, etc. No basta rezar. ¡Hace falta estudiar! ¡Empieza tu estudio de <strong>«Doctrina Catholica»</strong> hoy!</>,
-  description:<>Compendio de doctrina Católica. Nuevo contenido cada tanto. Encontrarás: 
-    <ul className="list-disc pl-4">
-<li>Catecismo de la Iglesia Católica</li>
-<li>Compendio del Catecismo de la Iglesia Católica</li>
-<li>Doctrina del Señor transmitida a las naciones por los Doce Apóstoles (Didajé)</li>
-<li>Epístola a Diogneto</li>
-  </ul>
-    </>,
+  legend:`*Catecismo*, *Didajé*, etc. No basta rezar. ¡Hace falta **estudiar**! ¡Empieza tu estudio de ***«Doctrina Catholica»*** hoy!`,
+  description:`Compendio de doctrina Católica. Se actualiza con frecuencia. Encontrarás:
+## Obras principales
+
+- Biblia Straubinger
+- Catecismo de la Iglesia Católica
+- Compendio del Catecismo de la Iglesia Católica
+
+## Obras cortas
+
+- Admoniciones - Francisco de Asís
+- Cántico de las Criaturas - Francisco de Asís
+- Doctrina de los Doce Apóstoles
+- Epístola a Diogneto
+- Epístola a los Corintios - Clemente de Roma
+- Epístola de Bernabé
+- Predicación Apostólica - Ireneo de Lyón
+
+## Documentos eclesiásticos
+### Concilio Vaticano II
+
+- Constitución Dogmática Dei Verbum
+- Constitución Dogmática Lumen Gentium
+
+## Otros documentos
+
+- Carta Apostólica Laetamur Magnopere
+- Carta Apostólica para la aprobación y publicación del Compendio del Catecismo de la Iglesia Católica
+- Constitución Apostólica Fidei Depositum
+
+  `,
 }
 
 const pugiles_fidei:Item = {
@@ -56,19 +83,33 @@ const pugiles_fidei:Item = {
   title:"PUGILES FIDEI",
   url:"https://rosario-lime.vercel.app/",
   image:'/mystery-tbg.webp',
-  legend: <>¿Te gustan los <i>misterios</i>? ¡Aqui hay varios! ¡Acompaña <strong>todos los días</strong> a Santo Domingo de Guzmán a resolverlos!</>,
-  description:<><p>¡Aqui puedes descargar la App definitiva para rezar <strong>el Santo Rosario</strong> en familia!</p> <p>La App cuenta con un <i>contador de racha</i>. ¡Procura no perderla!</p> <p></p>NEW: <strong>Coronilla a la Divina Misericordia</strong> </>,
+  legend: `¿Te gustan los *misterios*? ¡Aqui hay varios! ¡Acompaña **todos los días** a Santo Domingo de Guzmán a resolverlos!`,
+  description:`## El Santo Rosario 
+
+¡Aqui puedes descargar la App definitiva para rezar el Santo Rosario en familia!
+
+La App cuenta con un **contador de racha**. ¡Procura no perderla!
+
+**NEW:** Coronilla a la Divina Misericordia `,
 }
-
-
+//
+//
 const sinite_parvulos_venire_ad_me:Item = {
   hasNew:false,
   kind:"playlist",
   title:"SINITE PARVULOS VENIRE AD ME",
   url:"https://youtube.com/playlist?list=PLGtBzYHaqCVL3a1Ytl8FNjGNPNwC-2TLs&si=5j8Bdm8yf4ktLRjd",
   image:'/videogame-tbg.webp',
-  legend: <>¿Tenés menos de 25 años? <strong>¡ESTA PLAYLIST ES PARA VOS!</strong></>,
-  description:<>Lista de reproducción <strong>juvenil</strong></>,
+  legend: `¿Tenés menos de 30 años? **¡ESTA PLAYLIST ES PARA VOS!**`,
+  description:`Lista de reproducción pensada para **jovenes**.
+
+> «Se llama *sueño americano* porque hay que estar dormido para creerlo». 
+― George Carlin
+
+> «Dadme, cielos, **desengaño**» 
+― Pedro Calderón de la Barca
+
+  `,
 }
 
 
@@ -78,8 +119,21 @@ const vade_retro_satana:Item = {
   title:"VADE RETRO SATANA",
   url:"https://youtube.com/playlist?list=PLGtBzYHaqCVJ3QERrJqyMiA7-i5TRW-31&si=dvxT7Q5S54x_w1qq",
   image:'/flamingsword-tbg.webp',
-  legend: <><i>Las Montañas</i>, el cielo y tu fe moveran. <i>Santa Tierra</i>, <strong>¡por ella hoy debes luchar!</strong></>,
-  description:<><p>Lista de reproducción: <strong>Apologética</strong></p> <blockquote>«Sepa el moro y el judio / Y el ingles que anda en el mar / Que María es concebida Sin pecado original» </blockquote> <blockquote>«Catolico ignorante, seguro protestante»</blockquote> <blockquote> «El error no tiene derechos» </blockquote> <blockquote>«Cuando el hombre deja de creer en Dios, no es que no crea en nada, sino que pasa a creer en cualquier cosa» ―G.K. Chesterton</blockquote> </>,
+  legend: `«Las Montañas, el cielo y tu fe moveran. Santa Tierra, **¡por ella hoy debes luchar!**»`,
+  description:`Lista de reproducción: **Apologética**
+
+> «Sepa el moro y el judio / Y el ingles que anda en el mar / Que María es concebida Sin pecado original»
+― Dicho Popular
+
+> «Catolico ignorante, seguro protestante»
+― Verdad evidente
+
+> «El error no tiene derechos» 
+― Principio Catolico de toda la vida
+
+> «Cuando el hombre deja de creer en Dios, no es que no crea en nada, sino que pasa a creer en cualquier cosa» 
+―G.K. Chesterton
+  `,
 }
 
 

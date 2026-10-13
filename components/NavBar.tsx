@@ -1,4 +1,5 @@
-import {PopOver, Donate, DonateChivo} from './'
+//, Donate, DonateChivo, Mk
+import {PopOver} from './'
 
 export function NavBar () {
 
@@ -17,49 +18,94 @@ export function NavBar () {
         type="help"
         id="about"
         title="«SER ES DEFENDERSE» "
-        description="Encuentra aqui un arsenal para defender tu fe."
-      > 
+        description={
+`# **¡DESPIERTA, HISPANO!**
 
-        <About/>
-      </PopOver>
+No eres un individuo suelto. Eres parte de un pueblo con 500 años de destino compartido. Mientras el liberalismo te vende "libertad" para consumir y "progreso" para olvidar quién eres, aquí defendemos lo único que importa: **Dios, Patria y Pan**.
+
+## La lucha es una sola
+
+Como enseña **Marcello Gullo**, el enemigo es el mismo desde siempre: el liberalismo, ese virus que disuelve los vínculos sagrados entre el hombre y su tierra, entre el trabajador y su comunidad, entre el alma y su Creador. No hay tres batallas separadas. Hay **una guerra**: la Hispanidad contra la modernidad disolvente.
+
+**Santiago Armesilla** lo dice sin rodeos: la Hispanidad es la única alternativa real al capitalismo globalista. El imperio español no explotó al indio — lo incorporó. No destruyó al pueblo — lo elevó a la dignidad de cristiano y súbdito de una Corona común. Eso es lo que quieren borrar: que fuimos un proyecto de **hermandad entre naciones**, no de saqueo anglosajón.
+
+## Tres frentes, un solo combate
+
+- **La Hispanidad**: rechazamos la Leyenda Negra. España no fue verdugo, fue madre de pueblos. Frente al globalismo que nos quiere mano de obra desarraigada, reivindicamos la Patria Grande que nos parió.
+- **La Iglesia Católica**: sin Cristo no hay hombre libre. El liberalismo te quiere autónomo y vacío; la Iglesia te quiere hijo y hermano. La fe no es opio: es la única muralla que el capital no puede derribar.
+- **Los trabajadores**: no como masa de consumo, sino como **gremio, familia, comunidad**. El liberal te dice "triunfa solo"; nosotros decimos "nadie se salva solo".
+
+## Únete
+
+Aquí no vendemos ideología importada. Aquí recuperamos lo que nos robaron: **la conciencia de ser un pueblo con misión**.
+
+Porque defender a Hispanidad, a la Iglesia y al trabajador **es exactamente la misma cosa**: defender al hombre entero contra el sistema que lo quiere roto.
+
+**Lee. Reflexiona. Organízate. Hispano, la Patria te llama.**
+
+`
+        }
+      /> 
+
     </div>
     
   </nav>
 }
 
 
-function About () {
-  return <>
-
-    <p className="text-yellow-300 font-black">P: "¿Dónde estoy?"</p>
-    <p className="text-yellow-100 font-black">R: Una trinchera Anti-liberal</p>
-    <p className="text-yellow-300 font-black">P: "... Y eso a mi qué?  ¯\_(ツ)_/¯"</p>
-    <p className="text-yellow-100 font-black">R: Dejare que <strong>Marcelo Gullo (2022)</strong> responda:</p>
-
-    <p className="text-yellow-100 p-4">«El <strong>imperialismo británico</strong>, que acaba por ser de corte <strong>calvinista</strong>, toma cuerpo en las islas británicas porque hay dentro de Inglaterra un sector político-económico que <strong>desea quedarse con los bienes de la Iglesia y con América.</strong> Para ello <strong>hay que destruir al catolicismo y a España</strong></p>
-    <p className="text-yellow-100 p-4">Los <strong>protestantes puritanos</strong> que van a los Estados Unidos se consideran un nuevo pueblo elegido por Dios. Creen que están haciendo un viaje similar al del pueblo hebreo cruzando el Mar Rojo cuando cruzan en Atlántico. <strong>El ‘Destino manifiesto’ es construir la Nueva Jerusalén en América</strong>. </p>
-    <p className="text-yellow-100 p-4">Su concepción es que <strong>el hombre ha sido aniquilado por el pecado original</strong> y que Cristo ha venido para salvar sólo a unos pocos, que son -por supuesto- ellos. Consideran que todos esos aborígenes que hay en América están <strong>muertos por el pecado original</strong> y, si están muertos espiritualmente, lo que hay que hacer es matarlos físicamente. Si para ello tienen que matar a todos los indios, hay que matarlos; y si hay que robar todos los territorios de América a todos los indios, incluidos a los de la América española, hay que quitárselos. El lema que ellos mismos proclaman asevera que “el mejor indio es el indio muerto”. Pero ese lema tiene una profunda <strong>raíz teológica incomprensible fuera de la cosmovisión calvinista-puritana.</strong>»</p>
-
-  </>
-}
-
-
-
-
-    //<PopOver
-    //    transparency="opaque"
-    //    type="donation"
-    //    id="donation"
-    //    title="Ayudanos a llegar a mas personas!"
-    //    description=""
-    //    //description="Hereje y reaccionario  son lo mismo: si no se les ataca, no caen. Es como barrer el suelo; por regla general, donde no llega la escoba, el polvo no desaparece por sí solo."
-    //>
-    //
-    //  <Donate />
-    //  <DonateChivo />
-    //
-    //</PopOver>
-    //
-    //
-    //
-    //
+//function About () {
+//  return <div><Mk body={
+//    `# **¡DESPIERTA, HISPANO!**
+//
+//No eres un individuo suelto. Eres parte de un pueblo con 500 años de destino compartido. Mientras el liberalismo te vende "libertad" para consumir y "progreso" para olvidar quién eres, aquí defendemos lo único que importa: **Dios, Patria y Pan**.
+//
+//## La lucha es una sola
+//
+//Como enseña **Marcello Gullo**, el enemigo es el mismo desde siempre: el liberalismo, ese virus que disuelve los vínculos sagrados entre el hombre y su tierra, entre el trabajador y su comunidad, entre el alma y su Creador. No hay tres batallas separadas. Hay **una guerra**: la Hispanidad contra la modernidad disolvente.
+//
+//**Santiago Armesilla** lo dice sin rodeos: la Hispanidad es la única alternativa real al capitalismo globalista. El imperio español no explotó al indio — lo incorporó. No destruyó al pueblo — lo elevó a la dignidad de cristiano y súbdito de una Corona común. Eso es lo que quieren borrar: que fuimos un proyecto de **hermandad entre naciones**, no de saqueo anglosajón.
+//
+//## Tres frentes, un solo combate
+//
+//- **La Hispanidad**: rechazamos la Leyenda Negra. España no fue verdugo, fue madre de pueblos. Frente al globalismo que nos quiere mano de obra desarraigada, reivindicamos la Patria Grande que nos parió.
+//- **La Iglesia Católica**: sin Cristo no hay hombre libre. El liberalismo te quiere autónomo y vacío; la Iglesia te quiere hijo y hermano. La fe no es opio: es la única muralla que el capital no puede derribar.
+//- **Los trabajadores**: no como masa de consumo, sino como **gremio, familia, comunidad**. El liberal te dice "triunfa solo"; nosotros decimos "nadie se salva solo".
+//
+//## Únete
+//
+//Aquí no vendemos ideología importada. Aquí recuperamos lo que nos robaron: **la conciencia de ser un pueblo con misión**.
+//
+//Porque defender a Hispanidad, a la Iglesia y al trabajador **es exactamente la misma cosa**: defender al hombre entero contra el sistema que lo quiere roto.
+//
+//**Lee. Reflexiona. Organízate. Hispano, la Patria te llama.**
+//
+//
+//    `
+//
+//
+//
+//  }
+//className="mk-content"
+//  /></div>
+//}
+//
+//
+//
+//
+//    //<PopOver
+//    //    transparency="opaque"
+//    //    type="donation"
+//    //    id="donation"
+//    //    title="Ayudanos a llegar a mas personas!"
+//    //    description=""
+//    //    //description="Hereje y reaccionario  son lo mismo: si no se les ataca, no caen. Es como barrer el suelo; por regla general, donde no llega la escoba, el polvo no desaparece por sí solo."
+//    //>
+//    //
+//    //  <Donate />
+//    //  <DonateChivo />
+//    //
+//    //</PopOver>
+//    //
+//    //
+//    //
+//    //

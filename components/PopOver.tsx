@@ -1,5 +1,6 @@
 import {Info, Help, Donation} from '@/assets'
 import type {PopOverProps} from '@/types'
+import {Mk} from '@/components'
 
 export function PopOver ({id, title, description, url, children, transparency="clear", type="info"}:PopOverProps){
 
@@ -44,22 +45,24 @@ export function PopOver ({id, title, description, url, children, transparency="c
 
     </button>
 
-    <section popover="auto" className="fixed 
-      w-[90svw]
-      h-[50svh]
-      overflow-y-auto
-      top-1/2 
-      left-1/2 
-      -translate-x-1/2 
-      -translate-y-1/2
-      m-0
-      p-4
-      bg-gray-800
-      rounded-lg
-      text-white
-      shadow-xl" id={id}>
+    <section popover="auto" className="fixed
+  top-1/2 left-1/2
+  -translate-x-1/2 -translate-y-1/2
+  w-[min(92vw,42rem)]
+  max-h-[85svh]
+  overflow-y-auto
+  m-0
+  px-5 py-6 sm:px-8 sm:py-8
+  bg-gray-800
+  rounded-xl
+  text-white
+  shadow-2xl
+  ring-1 ring-white/10
+  overscroll-contain" id={id}>
         <p className="text-yellow-300 font-black text-xl text-center">{url?link:title}</p>
-        <div className="text-yellow-100 p-4 text-sm sm:text-base">{description}</div>
+        <div className="text-yellow-100 p-4 text-sm sm:text-base">
+          <Mk body={description} className="mk-content" />
+        </div>
         {children}
     </section>
   </>)
