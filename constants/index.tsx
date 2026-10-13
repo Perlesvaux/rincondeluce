@@ -87,7 +87,7 @@ const pugiles_fidei:Item = {
   legend: `¿Te gustan los *misterios*? ¡Aqui hay varios! ¡Acompaña **todos los días** a Santo Domingo de Guzmán a resolverlos!`,
   description:`## El Santo Rosario 
 
-¡Aqui puedes descargar la App definitiva para rezar el Santo Rosario en familia!
+¡Aqui puedes descargar **la App definitiva para rezar el Santo Rosario en familia**!
 
 La App cuenta con un **contador de racha**. ¡Procura no perderla!
 
