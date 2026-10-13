@@ -117,7 +117,7 @@ const error_non_habet_ius: Item = {
   kind:"playlist",
   title:"ERROR NON HABET IUS",
   url:"https://www.youtube.com/playlist?list=PLFu0ECkKkwlc",
-  image:'/gardening-tbg.webp',
+  image:'/conquest-tbg.webp',
   legend:`¿Cual es el papel de la filosofia en el *conjunto del hacer*? **... el deshacer ... el triturar  ... el demoler.**`,
   description: filomat
 
