@@ -23,6 +23,7 @@
 //import surprised from '/surprised.webp'
 import type {Item} from '@/types'
 import { filomat } from './filomat'
+import { doctrinaCatolica } from './doctrinaCatolica'
 
 const ave_christus_rex:Item = {
   hasNew:false,
@@ -46,36 +47,7 @@ const deus_vult:Item = {
   url:"https://materialknight.github.io/doctrina-catolica/",
   image:"/study-tbg.webp",
   legend:`*Catecismo*, *Didajé*, etc. No basta rezar. ¡Hace falta **estudiar**! ¡Empieza tu estudio de ***«Doctrina Catholica»*** hoy!`,
-  description:`Compendio de doctrina Católica. Se actualiza con frecuencia. Encontrarás:
-## Obras principales
-
-- Biblia Straubinger
-- Catecismo de la Iglesia Católica
-- Compendio del Catecismo de la Iglesia Católica
-
-## Obras cortas
-
-- Admoniciones - Francisco de Asís
-- Cántico de las Criaturas - Francisco de Asís
-- Doctrina de los Doce Apóstoles
-- Epístola a Diogneto
-- Epístola a los Corintios - Clemente de Roma
-- Epístola de Bernabé
-- Predicación Apostólica - Ireneo de Lyón
-
-## Documentos eclesiásticos
-### Concilio Vaticano II
-
-- Constitución Dogmática Dei Verbum
-- Constitución Dogmática Lumen Gentium
-
-## Otros documentos
-
-- Carta Apostólica Laetamur Magnopere
-- Carta Apostólica para la aprobación y publicación del Compendio del Catecismo de la Iglesia Católica
-- Constitución Apostólica Fidei Depositum
-
-  `,
+  description:doctrinaCatolica,
 }
 
 const pugiles_fidei:Item = {
