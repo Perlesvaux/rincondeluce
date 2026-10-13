@@ -22,6 +22,7 @@
 //import videogame from '/videogame.webp'
 //import surprised from '/surprised.webp'
 import type {Item} from '@/types'
+import { filomat } from './filomat'
 
 const ave_christus_rex:Item = {
   hasNew:false,
@@ -109,6 +110,8 @@ const sinite_parvulos_venire_ad_me:Item = {
 > «Dadme, cielos, **desengaño**» 
 ― Pedro Calderón de la Barca
 
+[ Mateo 18:6 ](https://materialknight.github.io/doctrina-catolica/biblia-straubinger/mateo#c18-v6)
+
   `,
 }
 
@@ -137,13 +140,28 @@ const vade_retro_satana:Item = {
 }
 
 
+const error_non_habet_ius: Item = {
+  hasNew: true,
+  kind:"playlist",
+  title:"ERROR NON HABET IUS",
+  url:"https://www.youtube.com/playlist?list=PLFu0ECkKkwlc",
+  image:'/gardening-tbg.webp',
+  legend:`¿Cual es el papel de la filosofia en el *conjunto del hacer*? **... el deshacer ... el triturar  ... el demoler.**`,
+  description: filomat
+
+
+}
+
+
 
 export const ITEMS:Item[] = [
   pugiles_fidei,
   deus_vult,
   vade_retro_satana,
+  error_non_habet_ius,
   sinite_parvulos_venire_ad_me,
   ave_christus_rex,
+
 
 
 ]
