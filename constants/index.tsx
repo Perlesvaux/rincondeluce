@@ -32,7 +32,7 @@ const ave_christus_rex:Item = {
   url:"https://youtube.com/playlist?list=PLGtBzYHaqCVJ0Mut6pnSHul9WK2j62YVt&si=N-_4_4StGg6LT-1b",
   image:"/surprised-tbg.webp",
   legend:`¡El *sentido aracnido* es real! Y lo mejor es que **se entrena con esta lista de reproducción.**`,
-  description:`Lista de reproducción **economico-politica**
+  description:`# Lista de reproducción **economico-politica**
 
 > «Un soldado sin formación política e ideológica no es más que un criminal de guerra en potencia»
   ― Thomas Sankara.
@@ -57,7 +57,7 @@ const pugiles_fidei:Item = {
   url:"https://rosario-lime.vercel.app/",
   image:'/mystery-tbg.webp',
   legend: `¿Te gustan los *misterios*? ¡Aqui hay varios! ¡Acompaña **todos los días** a Santo Domingo de Guzmán a resolverlos!`,
-  description:`## El Santo Rosario 
+  description:`# El Santo Rosario 
 
 ¡Aqui puedes descargar **la App definitiva para rezar el Santo Rosario en familia**!
 
@@ -74,13 +74,11 @@ const sinite_parvulos_venire_ad_me:Item = {
   url:"https://youtube.com/playlist?list=PLGtBzYHaqCVL3a1Ytl8FNjGNPNwC-2TLs&si=5j8Bdm8yf4ktLRjd",
   image:'/videogame-tbg.webp',
   legend: `¿Tenés menos de 30 años? **¡ESTA PLAYLIST ES PARA VOS!**`,
-  description:`Lista de reproducción pensada para **jovenes**.
+  description:`# Lista de reproducción pensada para **jovenes**.
 
-> «Se llama *sueño americano* porque hay que estar dormido para creerlo». 
-― George Carlin
-
-> «Dadme, cielos, **desengaño**» 
-― Pedro Calderón de la Barca
+> *«Se llama *sueño americano* porque hay que estar dormido para creerlo»*. ― **George Carlin**
+>
+> *«Dadme, cielos, **desengaño**»* ― **Pedro Calderón de la Barca**
 
 [ Mateo 18:6 ](https://materialknight.github.io/doctrina-catolica/biblia-straubinger/mateo#c18-v6)
 
@@ -95,19 +93,15 @@ const vade_retro_satana:Item = {
   url:"https://youtube.com/playlist?list=PLGtBzYHaqCVJ3QERrJqyMiA7-i5TRW-31&si=dvxT7Q5S54x_w1qq",
   image:'/flamingsword-tbg.webp',
   legend: `«Las Montañas, el cielo y tu fe moveran. Santa Tierra, **¡por ella hoy debes luchar!**»`,
-  description:`Lista de reproducción: **Apologética**
+  description:`# Lista de reproducción: **Apologética**
 
-> «Sepa el moro y el judio / Y el ingles que anda en el mar / Que María es concebida Sin pecado original»
-― Dicho Popular
-
-> «Catolico ignorante, seguro protestante»
-― Verdad evidente
-
-> «El error no tiene derechos» 
-― Principio Catolico de toda la vida
-
-> «Cuando el hombre deja de creer en Dios, no es que no crea en nada, sino que pasa a creer en cualquier cosa» 
-―G.K. Chesterton
+> *«Sepa el moro y el judio / Y el ingles que anda en el mar / Que María es concebida Sin pecado original»* ― **Dicho Popular**
+>
+> *«Catolico ignorante, seguro protestante»* ― **Verdad evidente**
+>
+> *«El error no tiene derechos»* ― **Principio Catolico de toda la vida**
+>
+> *«Cuando el hombre deja de creer en Dios, no es que no crea en nada, sino que pasa a creer en cualquier cosa»* ― **G.K. Chesterton**
   `,
 }
 

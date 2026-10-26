@@ -1,5 +1,7 @@
 
-export const doctrinaCatolica:string = `**La Biblia Straubinger, por fin en tus manos — y gratis**
+export const doctrinaCatolica:string = `# Doctrina Católica
+
+**La Biblia Straubinger, por fin en tus manos — y gratis**
 
 ¿Sabías que en El Salvador es **casi imposible** conseguir una Biblia Straubinger? Y cuando aparece, su versión física ronda los **500 dólares**. Un lujo inalcanzable para la mayoría.
 
