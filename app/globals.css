@@ -73,30 +73,44 @@
 }
 
 .mk-content h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   text-align: center;
-  border: 6px outset currentColor;
-  padding-bottom: 0.4em;
+  border-bottom: 6px outset currentColor;
+  font-weight: bolder;
+  color: goldenrod;
+  /*border: 6px outset currentColor;*/
+  /*padding-bottom: 0.4em;*/
 }
 
 .mk-content h2 {
-  text-align: center;
-  font-size: 1.75rem;
-  border: 5px outset currentColor;
-  padding-bottom: 0.4em;
+  text-align: right;
+  font-size: 1.5rem;
+  font-style: italic;
+  border-bottom: 4px outset currentColor;
+  font-weight: bolder;
+  color: goldenrod;
+  /*padding-bottom: 0.4em;*/
 }
 
 .mk-content h3 {
-  text-align: center;
-  font-size: 1.35rem;
-  border: 2px inset currentColor;
+  text-align: right;
+  font-size: 1.15rem;
+  font-style: italic;
+  /*border: 2px inset currentColor;*/
+  border-bottom: 2px inset currentColor;
+
+  font-weight: bolder;
+  /*text-decoration: underline;*/
 }
 
 .mk-content h4 {
-  text-align: center;
-  font-size: 1.15rem;
+  text-align: right;
+  font-size: 1rem;
   opacity: 0.9;
-  border: 2px dotted currentColor;
+  /*border: 2px dotted currentColor;*/
+  border-bottom: 2px dotted currentColor;
+  font-weight: bolder;
+  font-style: italic;
 }
 
 /* ===== Énfasis ===== */

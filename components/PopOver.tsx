@@ -59,7 +59,7 @@ export function PopOver ({id, title, description, url, children, transparency="c
   shadow-2xl
   ring-1 ring-white/10
   overscroll-contain" id={id}>
-        <p className="text-yellow-300 font-black text-xl text-center">{url?link:title}</p>
+        <p className="text-yellow-300 font-black text-xl text-center italic font-black animate-pulse">«{url?link:title}»</p>
         <div className="text-yellow-100 p-4 text-sm sm:text-base">
           <Mk body={description} className="mk-content" />
         </div>
