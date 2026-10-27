@@ -59,7 +59,7 @@ El todo se compone de partes, y las partes son mutuamente diferentes, cada una c
  La unidad del todo proviene de la **conexión por contigüidad** entre las partes **(conexión sinalógica)**
 
 
- ### Todo Distributivo
+### Todo Distributivo
 
 > i.e.: **Un estacionamiento**. Cada automóvil es un automóvil completo e independiente, y su condición de "automóvil" no depende de los demás automóviles del aparcamiento. Si se marcha un automóvil, los demás no se ven afectados.
 
@@ -74,7 +74,7 @@ La relación entre las partes es de semejanza (relación isológica).
 Es su teoría de la ciencia. Una ciencia no se define por su "objeto" ni por su "método", sino por su **cierre categorial**: el proceso por el cual un campo de operaciones (con materiales, aparatos, conceptos) se constituye en una totalidad cerrada, capaz de generar **identidades sintéticas** (verdades). No hay distinción tajante entre ciencias formales y empíricas: toda ciencia es material .
 
 ### Espacio gnoseológico
-Es el "mapa" que usa para analizar las ciencias. Las descompone según tres ejes (tomados de la semiótica) :
+Es el "mapa" que usa para analizar las ciencias. Las descompone según tres ejes (tomados de la semiótica):
 - **Eje sintáctico**: Relaciones entre los signos y términos de la ciencia.
 - **Eje semántico**: Relación de los signos con los objetos (referencias, fenómenos, esencias).
 - **Eje pragmático**: Relación de los signos con los sujetos que operan (normas, diálogos, operaciones).
